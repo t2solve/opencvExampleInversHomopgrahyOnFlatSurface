@@ -17,8 +17,8 @@ There could might be a better option for the corner detection using lib:
 https://github.com/DIPlib/diplib
 
 This example is based on a really good discussed example:
-https://stackoverflow.com/questions/44104633/transforming-2d-image-coordinates-to-3d-world-coordinates-with-z-0
-https://github.com/rodolfoap/OpenCV-2Dto3D
+[hint1](https://stackoverflow.com/questions/44104633/transforming-2d-image-coordinates-to-3d-world-coordinates-with-z-0)
+[hint2](https://github.com/rodolfoap/OpenCV-2Dto3D)
 
 # deps: 
 needs opencv 3.1 or above
