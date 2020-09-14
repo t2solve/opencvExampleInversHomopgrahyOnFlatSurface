@@ -10,7 +10,7 @@ via the opencv example](https://docs.opencv.org/2.4/_downloads/camera_calibratio
 [HowTo Cam-Cali step-by-step](https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html?highlight=calibration7)
 
 Afterwars I retried the [inverse homography](https://docs.opencv.org/master/d9/dab/tutorial_homography.html) on one of the calibration pictures to get real world distance measurements.
-The chessboard I used had 25mm x 25mm squares. We do have mean 
+The chessboard I used had 25mm x 25mm sized squares. We do have mean 
 projection error of 0.10 mm for 42 checked distances, which the code projectAndCalc.cpp is calculating.
 
 There could might be a better option for the corner detection using lib: 
