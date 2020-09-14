@@ -8,12 +8,12 @@ via the opencv example](https://docs.opencv.org/2.4/_downloads/camera_calibratio
 
 Afterwars I retried the inverse homography on one of the calibration pictures to get real world distance measurements.
 The chessboard I used had 25mm x 25mm squares. We do have mean 
-projection error of 0.10 mm for 28 checked distances, which the code shows.
+projection error of 0.10 mm for 28 checked distances, which the code projectAndCalc.cpp is calculating.
 
 There could might be a better option for the corner detection using lib: 
 https://github.com/DIPlib/diplib
 
-This example is based on a really good discussed example
+This example is based on a really good discussed example:
 https://stackoverflow.com/questions/44104633/transforming-2d-image-coordinates-to-3d-world-coordinates-with-z-0
 https://github.com/rodolfoap/OpenCV-2Dto3D
 
