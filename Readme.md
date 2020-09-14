@@ -24,7 +24,10 @@ https://github.com/rodolfoap/OpenCV-2Dto3D
 needs opencv 3.1 or above
 
 # how to compile:
+```bash
 g++ -std=gnu++11 -o projectAndCalc projectAndCalc.cpp `pkg-config opencv --cflags --libs`
-
+```
 # execute: 
+```bash
 ./projectAndCalc
+```
